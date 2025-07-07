@@ -24,7 +24,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 script {
-                    clone("https://github.com/NandiniSrivastava/kubernetes-ecommerce-app.git","master")
+                    clone("https://github.com/NandiniSrivastava/kubernetes-ecommerce-app.git","main")
                 }
             }
         }
